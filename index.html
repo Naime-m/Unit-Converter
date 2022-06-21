@@ -8,23 +8,32 @@
     <title>Document</title>
 </head>
 <body>
-<h1>Metric/Imperial Unit Convert</h1>
 
-<input type="text" id="input">
+<div id = "box">
+    <h1>Metric/Imperial Unit Convert</h1>
+    <input type="text" id="input">
+    <button id = "btn">Convert</button>
+</div>
 
-<button id = "btn">Convert</button>
+<div class="container">
+    <div class= "element">
+        <h2>Length (Meter/Feet)</h2>
+        <p><span id= "meter">0</span> meters = <span id = "meterToFeet">0</span> feet |
+        <span id = "feet">0</span> feet = <span id = "feetToMeter">0</span> meters</p>
+    </div>
 
-<h2>Length (Meter/Feet)</h2>
-<p><span id= "meter">0</span> meters = <span id = "meterToFeet">0</span> feet |
- <span id = "feet">0</span> feet = <span id = "feetToMeter">0</span> meters</p>
+    <div class= "element">
+        <h2>Volume (Liters/Gallons)</h2>
+        <p><span id = "liter">0</span> liters = <span id ="literToGallon">0</span> gallons |
+        <span id = "gallon">0</span> gallons = <span id = "gallonToLiter">0</span> liters</p>
+    </div>
 
-<h2>Volume (Liters/Gallons)</h2>
-<p><span id = "liter">0</span> liters = <span id ="literToGallon">0</span> gallons |
- <span id = "gallon">0</span> gallons = <span id = "gallonToLiter">0</span> liters</p>
-
-<h2>Mass (Kilograms/Pounds)</h2>
-<p><span id = "kilo">0</span> kilos = <span id= "kiloToPound">0</span> pounds |
- <span id = "pound">0</span> pounds = <span id="poundToKilo">0</span> kilos</p>
+    <div class= "element">
+        <h2>Mass (Kilograms/Pounds)</h2>
+        <p><span id = "kilo">0</span> kilos = <span id= "kiloToPound">0</span> pounds |
+        <span id = "pound">0</span> pounds = <span id="poundToKilo">0</span> kilos</p>
+    </div>
+</div>
 
     <script src="script.js"></script>
 </body>
