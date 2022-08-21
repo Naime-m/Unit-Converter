@@ -1,4 +1,4 @@
-# unit-conversion-js
+# Unit Converter
 
 Unit Converter made in Javascript
 
